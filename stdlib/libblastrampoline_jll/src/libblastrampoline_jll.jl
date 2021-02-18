@@ -2,7 +2,7 @@
 
 ## dummy stub for https://github.com/JuliaBinaryWrappers/libblastrampoline_jll.jl
 
-baremodule blastrampoline_jll
+baremodule libblastrampoline_jll
 using Base, Libdl
 Base.Experimental.@compiler_options compile=min optimize=0 infer=false
 
